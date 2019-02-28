@@ -1,0 +1,52 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\VTEX\\repositories\\FSharp-web-api-example\\WebApi\\WebApi.fsproj",
+    "projectName": "WebApi",
+    "projectPath": "C:\\Users\\VTEX\\repositories\\FSharp-web-api-example\\WebApi\\WebApi.fsproj",
+    "outputPath": "C:\\Users\\VTEX\\repositories\\FSharp-web-api-example\\WebApi\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\VTEX\\repositories\\FSharp-web-api-example\\Core\\Core.fsproj": {
+            "projectPath": "C:\\Users\\VTEX\\repositories\\FSharp-web-api-example\\Core\\Core.fsproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "FSharp.Core": {
+          "target": "Package",
+          "version": "[4.5.2, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
